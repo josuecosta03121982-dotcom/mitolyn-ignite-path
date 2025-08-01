@@ -17,17 +17,17 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 280 100% 60%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 340 100% 70%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 200 100% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -36,7 +36,27 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* MITOLYN Brand Colors */
+    --mitolyn-pink: 330 100% 70%;
+    --mitolyn-blue: 210 100% 60%;
+    --mitolyn-orange: 25 100% 60%;
+    --mitolyn-yellow: 50 100% 60%;
+    --mitolyn-purple: 280 100% 60%;
+    --mitolyn-cyan: 180 100% 50%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--mitolyn-pink)), hsl(var(--mitolyn-purple)), hsl(var(--mitolyn-blue)));
+    --gradient-cta: linear-gradient(135deg, hsl(var(--mitolyn-orange)), hsl(var(--mitolyn-pink)));
+    --gradient-section: linear-gradient(180deg, hsl(var(--mitolyn-blue)), hsl(var(--mitolyn-purple)));
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(var(--mitolyn-pink) / 0.3);
+    --shadow-card: 0 10px 40px -10px hsl(var(--mitolyn-purple) / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 

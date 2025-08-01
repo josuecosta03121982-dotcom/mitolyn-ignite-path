@@ -3,7 +3,7 @@ import mitolynBottles from "@/assets/mitolyn-bottles.png";
 
 const Hero = () => {
   const handleCTAClick = () => {
-    window.open("https://truebalancelife.store/mitolynofficial", "_blank");
+    window.open("https://truebalancelife.store/mitolyn", "_blank");
   };
 
   return (
@@ -40,13 +40,14 @@ const Hero = () => {
 
           {/* Product Image */}
           <div className="flex justify-center lg:justify-end">
-            <div className="relative">
+            <div className="relative cursor-pointer group" onClick={handleCTAClick}>
               <img 
                 src={mitolynBottles} 
-                alt="MITOLYN Weight Loss Support Supplement Bottles" 
-                className="w-full max-w-md lg:max-w-lg xl:max-w-xl object-contain drop-shadow-2xl"
+                alt="MITOLYN Weight Loss Support Supplement Bottles - Click to learn more" 
+                className="w-full max-w-md lg:max-w-lg xl:max-w-xl object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/10 rounded-full blur-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-mitolyn-pink/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
             </div>
           </div>
         </div>

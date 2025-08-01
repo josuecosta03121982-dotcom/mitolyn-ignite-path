@@ -27,7 +27,7 @@ const Benefits = () => {
   ];
 
   const handleCTAClick = () => {
-    window.open("https://truebalancelife.store/mitolynofficial", "_blank");
+    window.open("https://truebalancelife.store/mitolyn", "_blank");
   };
 
   return (
@@ -80,13 +80,14 @@ const Benefits = () => {
 
           {/* Product Image */}
           <div className="flex justify-center">
-            <div className="relative">
+            <div className="relative cursor-pointer group" onClick={handleCTAClick}>
               <img 
                 src={mitolynSingle} 
-                alt="MITOLYN Single Bottle - Weight Loss Support Supplement" 
-                className="w-full max-w-md object-contain drop-shadow-2xl"
+                alt="MITOLYN Single Bottle - Weight Loss Support Supplement - Click to order now" 
+                className="w-full max-w-md object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-mitolyn-pink/20 to-transparent rounded-full blur-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-mitolyn-orange/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
             </div>
           </div>
         </div>

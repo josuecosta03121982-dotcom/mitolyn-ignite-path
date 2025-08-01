@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 const FinalCTA = () => {
   const handleCTAClick = () => {
-    window.open("https://truebalancelife.store/mitolynofficial", "_blank");
+    window.open("https://truebalancelife.store/mitolyn", "_blank");
   };
 
   return (
